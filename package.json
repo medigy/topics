@@ -1,10 +1,12 @@
 {
   "name": "@medigy/topics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Medigy Topics listing from Ontology (OWL) FIles",
   "main": "index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" } ,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +28,8 @@
   "dependencies": {
     "graphql": "^15.3.0",
     "graphql-request": "^3.0.0"
+  },
+  "devDependencies": {
+    "graphql-tag": "^2.11.0"
   }
 }

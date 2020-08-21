@@ -1,5 +1,6 @@
 import pkg from 'graphql-request';
-const { request, gql } = pkg;
+const { request } = pkg;
+import gql from 'graphql-tag';
 
 export default {
   getTopics: () => {
