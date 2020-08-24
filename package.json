@@ -1,6 +1,6 @@
 {
   "name": "@medigy/topics",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Medigy Topics listing from Ontology (OWL) FIles",
   "main": "index.js",
@@ -26,8 +26,7 @@
   },
   "homepage": "https://github.com/medigy/topics#readme",
   "dependencies": {
-    "graphql": "^15.3.0",
-    "graphql-request": "^3.0.0"
+    "react-admin": "^3.8.2"
   },
   "devDependencies": {
     "graphql-tag": "^2.11.0"
